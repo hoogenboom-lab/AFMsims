@@ -9,7 +9,7 @@ To debug the functions or cells, simply click the drop down arrows next to subse
 For details on AI based Object identification for AFM imaging artefacts please email willcapp09@gmail.com. I will do my best to give you a detailed explanation of the work I have completed so far and how to implement it yourself.
 
 # ABAQUS AFM Simulations
-Authors: J. Giblin-Burnham
+Authors: J. Giblin-Burnham (j.giblin-burnham@hotmail.com)
 
 ## Introduction
 Repository for project code simulating indentation and AFM imaging using ABAQUS/FEM and various FEM simulations. There are four different simulations.
