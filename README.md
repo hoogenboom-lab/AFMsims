@@ -65,19 +65,19 @@ Within a seperate python script the simulator code can be imported by either app
     
 Or by either copying the AFM_ABAQUS_Simulation_Code.py script to the same directory or to the main python path (for jupyter notebook/spyder this will be main anaconda directory) and importing as:
 
-   from AFM_ABAQUS_Simulation_Code import *
+      from AFM_ABAQUS_Simulation_Code import *
 
 Then, the simulator can simply be run by defining the required variables and running main function:
 
-   host, port, username, password, None, localPath, abqCommand, fileName, subData,              
-   pdb, rotation, surfaceApprox, indentorType, rIndentor, theta_degrees, tip_length,             
-   indentionDepth, forceRef, contrast, binSize, clearance, meshSurface, meshBase, meshIndentor,   
-   timePeriod, timeInterval = ...
-        
-   AFMSimulation(host, port, username, password, None, localPath, abqCommand, fileName, subData, 
-   pdb, rotation, surfaceApprox, indentorType, rIndentor, theta_degrees, tip_length,
-   indentionDepth, forceRef, contrast, binSize, clearance, meshSurface, meshBase, meshIndentor,
-   timePeriod, timeInterval)
+      host, port, username, password, None, localPath, abqCommand, fileName, subData,              
+      pdb, rotation, surfaceApprox, indentorType, rIndentor, theta_degrees, tip_length,             
+      indentionDepth, forceRef, contrast, binSize, clearance, meshSurface, meshBase, meshIndentor,   
+      timePeriod, timeInterval = ...
+           
+      AFMSimulation(host, port, username, password, None, localPath, abqCommand, fileName, subData, 
+      pdb, rotation, surfaceApprox, indentorType, rIndentor, theta_degrees, tip_length,
+      indentionDepth, forceRef, contrast, binSize, clearance, meshSurface, meshBase, meshIndentor,
+      timePeriod, timeInterval)
 
 ## Common errors:
 - Some modules may require Python 3.9 or newer. 
