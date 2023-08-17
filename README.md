@@ -1,5 +1,6 @@
 # Hard Sphere AFM Simulations
 Authors: B. McKiernan, S. Hatzopoulos, W. Capp, A. Zhikharev
+
 Repository for project code simulating AFM imaging using simple hard sphere contact. Code is selfcontained Jupyter notebooks. To run the code for general use simply click the play button in the small box next to 41 cells hidden in the code framework subsection. This will set up all the functions so that you can easily produce AFM image simulations using the GUI in section 2. This should take around 45-60s.
 
 The GUI gives you the option to change all the variables in the final simulation function. Once you have selected your desired variables, hit shift+enter on your keyboard to run!
