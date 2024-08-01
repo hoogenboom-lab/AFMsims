@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(1, '/home/jgiblinburnham/Documents/ABAQUS-AFM-Simulations/')
 
-from abqsims.afm import *
+from afmsims.afm import *
 
 # %%
 #  ------------------------------------------Remote Sever and Submission Variables------------------------------------------

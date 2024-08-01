@@ -2,7 +2,7 @@
 import sys
 sys.path.insert(1, '..')
 
-from abqsims.afm import *
+from afmsims.afm import *
 from scipy import interpolate
 
 
